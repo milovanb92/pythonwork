@@ -4,7 +4,8 @@ for pizza in pizzas:
 print("I really love pizza!!!")
 
 friends_pizzas = pizzas[:]
-
+first_three = pizzas[:3]
+print(f"The first three items in list pizzas are {pizzas[0:3]}")
 pizzas.append('chilli')
 friends_pizzas.append('vegetariana')
 

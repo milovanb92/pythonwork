@@ -14,3 +14,7 @@ print(players[-3:])
 print("Here are the first three playes on my team:")
 for player in players[:3]:
     print(player.title())
+
+print("Here are the three playes from midle of list: ")
+for player in players[-1:2]:
+    print(player.title())
