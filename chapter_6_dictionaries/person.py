@@ -16,3 +16,17 @@ print(f"Favorite number is {favorite_number['sreco']}")
 print(f"Favorite number is {favorite_number['marko']}")
 print(f"Favorite number is {favorite_number['sasa']}")
 print(f"Favorite number is {favorite_number['kole']}")
+
+
+favorite_number = {
+    'kico': [15, 24],
+    'sreco': [22, 52],
+    'marko': [43, 11],
+    'sasa': [28, 42],
+    'kole': [33, 56],
+}
+
+for name, numbers in favorite_number.items():
+    print(f"{name.title()} favorite numbers are:")
+    for number in numbers:
+        print(f"\t{number}")
