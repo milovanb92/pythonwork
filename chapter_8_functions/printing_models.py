@@ -16,11 +16,17 @@
 # for completed_model in completed_modes:
 #     print(completed_model)
 
-def print_models(unprinted_designs, completed_models):
-    while unprinted_designs:
-        current_design = unprinted_designs.pop()
-        print(f"Printing model: {current_design}")
-        completed_models.append(current_design)
+# def print_models(unprinted_designs, completed_models):
+#     while unprinted_designs:
+#         current_design = unprinted_designs.pop()
+#         print(f"Printing model: {current_design}")
+#         completed_models.append(current_design)
+
+import printing_functions 
+from printing_functions import print_models
+from printing_functions import print_models as p_m
+import printing_functions as p_f
+from printing_functions import *
 
 def show_completed_models(completed_models):
     print("\nThe following models have been printed:")
@@ -30,5 +36,14 @@ def show_completed_models(completed_models):
 unprinted_designs = ['telefon', 'noz', 'kasika']
 completed_models = []
 
+printing_functions.print_models(unprinted_designs[:], completed_models)
+show_completed_models(completed_models)
+
 print_models(unprinted_designs[:], completed_models)
+show_completed_models(completed_models)
+
+p_m(unprinted_designs[:], completed_models)
+show_completed_models(completed_models)
+
+p_f.print_models(unprinted_designs[:], completed_models)
 show_completed_models(completed_models)

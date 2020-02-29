@@ -6,6 +6,6 @@ def make_pizza(size, *toppings):
     for topping in toppings:
         print(f"- {topping}")
 
-# velicinu pizze stavljamo na pocetak zbog pozicionog argumenta koji proslijedjujemo funkicji
-make_pizza('big', 'peperoni')
-make_pizza('small', 'mushrooms', 'green peppers', 'extra cheese')
+# # velicinu pizze stavljamo na pocetak zbog pozicionog argumenta koji proslijedjujemo funkicji
+# make_pizza('big', 'peperoni')
+# make_pizza('small', 'mushrooms', 'green peppers', 'extra cheese')
