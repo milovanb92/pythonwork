@@ -1,0 +1,4 @@
+I love programming.
+Nema novih linija. 
+Dodajemo nove linije. 
+Ne brisemo prethodne. 
